@@ -1,0 +1,5 @@
+firefox-focal-system-ca (0.0.0.1) focal; urgency=low
+
+  * Initial release. 
+
+ -- Juri Grabowski <debian@jugra.de>  Wed, 29 Jun 2022 15:49:27 +0200

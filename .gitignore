@@ -1,0 +1,7 @@
+debian/.debhelper/                                                                               
+debian/debhelper-build-stamp
+debian/files
+debian/firefox-focal-system-ca.postinst.debhelper
+debian/firefox-focal-system-ca.prerm.debhelper
+debian/firefox-focal-system-ca.substvars
+debian/firefox-focal-system-ca/       

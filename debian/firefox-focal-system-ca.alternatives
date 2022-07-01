@@ -1,0 +1,6 @@
+Name: libnssckbi.so
+Link: /usr/lib/firefox/libnssckbi.so
+Status: auto
+Alternative: /usr/lib/firefox/libnssckbi.system.so
+Value: none
+Priority: 50

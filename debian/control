@@ -1,0 +1,16 @@
+Source: firefox-focal-system-ca
+Section: local
+Priority: optional
+Maintainer: Juri Grabowski <debian@jugra.de>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.1
+Homepage: http://www.debian.org
+Rules-Requires-Root: no
+
+Package: firefox-focal-system-ca
+Replaces: firefox
+Architecture: all
+Multi-Arch: foreign
+Depends: firefox, p11-kit-modules, ca-certificates, ${misc:Depends}, ${shlibs:Depends}
+Description: Use system certificate storage to verify https
+  It use solution from https://askubuntu.com/questions/244582/add-certificate-authorities-system-wide-on-firefox/1036637#1036637

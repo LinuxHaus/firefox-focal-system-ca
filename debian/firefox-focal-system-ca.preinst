@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+
+if [ ! -n "$(dpkg-divert --list /usr/lib/firefox/libnssckbi.so)" ]; then
+	dpkg-divert --package firefox-focal-system-ca --add --rename --divert /usr/lib/firefox/libnssckbi.real.so /usr/lib/firefox/libnssckbi.so
+fi
+
+#DEBHELPER#
+
+exit 0
